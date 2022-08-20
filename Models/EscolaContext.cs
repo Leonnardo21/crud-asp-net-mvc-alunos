@@ -14,5 +14,11 @@ namespace CrudMvcEscola.Models
         }
 
         public DbSet<Aluno> Alunos { get; set; }
+
+        /*protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Aluno>()
+                .Property(a => a.Id);
+        }*/
     }
 }

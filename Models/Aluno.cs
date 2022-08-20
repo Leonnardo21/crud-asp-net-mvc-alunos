@@ -7,6 +7,7 @@ namespace CrudMvcEscola.Models
 
     public class Aluno
     {
+            [Key]
             public int Id { get; set; }
 
             [Required]
